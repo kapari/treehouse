@@ -1,22 +1,33 @@
 // Add new task
 // When click next sibling button to #new-task input
-// save value of #new-task
-// append value as li to #incomplete-tasks ul, with additional label/buttons
+// create new li with value of #new-task
+// with additional...
+    // input checkbox
+    // label
+    // input (text)
+    // button .edit
+    // button .delete
+    // append internal items to li
+// append li to #incomplete-tasks ul
 
 
 // Edit existing task
 // On click .edit button
-// Add .editMode class to parent li
-// button.edit text changes to "Save"
-
+// Toggle .editMode class of parent li
+// If parent li has class editMode
+    // Change label text to input's value
+    // button.edit text changes to "Save"
+// Else
+    // Change input's value to label text
+    // button.edit changes back to "Edit"
 
 // Delete existing task
 // On click .delete button
 // Alert confirmation
-// Remove parent li
+// Remove parent li from ul
 
 
 // Mark task as complete/incomplete
 // On checkbox change
-// if in #incomplete-tasks, move to #completed-tasks
-// if in #complete-tasks, move to #incomplete-tasks
+// if checked in #incomplete-tasks, append to #completed-tasks
+// if unchecked in #complete-tasks, append #incomplete-tasks
